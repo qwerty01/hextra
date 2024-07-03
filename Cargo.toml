@@ -1,0 +1,12 @@
+[package]
+name = "hextra"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+owo-colors = "4.0.0"
+seq-macro = "0.3.5"
+
+[dev-dependencies]
+clap = { version = "4.5.8", features = ["derive"] }
+rand = { version = "0.8.5", features = ["min_const_gen"] }
